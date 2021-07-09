@@ -1,0 +1,16 @@
+.swatch {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 0 0.3rem hsl(0, 0%, 70%);
+    figcaption {
+        display: grid;
+        place-content: center;
+        padding: 1rem;
+        border-radius: 0.15rem;
+        text-align: center;
+        strong {
+            font-size: 1.5rem;
+        }
+    }
+}
